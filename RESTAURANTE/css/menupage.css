@@ -1,0 +1,206 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* HEADER */
+header {
+    /* background: #045015; */
+    background: #271307;
+    width: 100%;
+    position: relative;
+    opacity: 1;
+    /* position: fixed; */
+    /* opacity: .8; */
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 90px;
+    padding: 0 5%;
+}
+
+.navLinks {
+    padding: 28px 0;
+    padding: 0 5%;
+}
+
+.navLinks li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: #fdfdfd;
+    padding: 5px 0;
+    position: relative;
+    font-size: 20px;
+}
+
+/* MENU INDEX */
+.menuContainer {
+    text-align: center;
+    padding: 100px 0 0;
+    background-color: #cea083;
+}
+
+.menuContainer h1 {
+    padding: 30px 0;
+    font-size: 40px;
+    color: #55270c;
+    border-bottom: 1px solid #55270c;
+}
+
+.menuOption {
+    margin: 20px auto auto;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+/* MENU DISHES */
+.dishContainer {
+    width: auto;
+    /* max-width: 90vw; */
+    padding-top: 20px;
+    text-align: center;
+    background-color: #e2baa1;
+}
+
+.dishList {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    padding: 0 20px 20px;
+}
+
+.dishList a {
+    color: unset;
+}
+
+.dishList .item {
+    background-color: #cea083;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.dishList .item img {
+    width: 90%;
+    /* filter: drop-shadow(0 50px 20px #000); */
+}
+
+/* .dishList .item h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+} */
+
+.dishList .item .price {
+    font-size: medium;
+}
+
+.dishList .item .buttons {
+    margin: 10px 0 10px;
+    display: flex;
+}
+
+.dishList .item .buttons a {
+    background-color: #55270c;
+    width: auto;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    margin: 10px 10px 0;
+    border-radius: 10px;
+    opacity: .8;
+}
+
+.dishList .item .buttons a:hover {
+    opacity: 1;
+}
+
+
+
+.detailsContainer {
+    background-color: #e2baa1;
+    padding-top: 80px;
+}
+
+.detail {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.detail .image img {
+    width: auto;
+}
+
+.detail .image {
+    position: relative;
+    margin: auto;
+}
+
+/* .detail .image::before {
+
+} */
+
+#detailPage {
+    background-color: #e2baa1;
+}
+
+.detailsContainer {
+    margin: auto;
+}
+
+.detail .content {
+    margin: auto;
+}
+
+.detail .name {
+    font-size: 5rem;
+    padding: 40px 0 0 0;
+    margin: 0 0 10px 0;
+}
+
+.detail .price {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.detail .description {
+    font-weight: 300;
+    font-size: 2rem;
+}
+
+.detail .name,
+.detail .price,
+.detail .description {
+    color: #55270c;
+}
+
+.detail .backBtn {
+    display: flex;
+}
+
+.detail .backBtn a {
+    background-color: #55270c;
+    border: none;
+    padding: 15px 20px;
+    border-radius: 20px;
+    font-size: large;
+    color: #cea083;
+}

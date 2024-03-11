@@ -1,0 +1,391 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bebebe;
+    background: linear-gradient(180deg, #991414 0%, #bebebe 35%);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.hide {
+    display: none;
+}
+
+/* ===================================================== */
+.headerPage {
+    width: 100%;
+    background-color: #991414;
+    padding: 0 2rem;
+}
+
+header nav{
+    /* background-color: #991414;
+    height: 50px; */
+    position: relative;
+}
+
+.logo {
+    padding: .5rem 0;
+    width: 80px;
+    align-items: center;
+}
+
+#navbar {
+    /* display: flex;
+    justify-content: end;
+    font-size: 1.3rem;
+    padding: .7rem;
+    margin-left: 100px; */
+    position: absolute;
+    right: 0;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    display: inline-block;
+}
+
+#navbar li {
+    display: inline-block;
+    text-transform: uppercase;
+    margin-left: 25px;
+}
+
+#navbar a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.5s;
+    opacity: .7;
+}
+
+#navbar a:hover {
+    padding: 10px 15px;
+    background-color: #7a0c0c;
+    opacity: 1;
+}
+
+#navbarBtn {
+    padding: 15px 20px;
+    text-decoration: none;
+    background-color: #7a0c0c;
+    border: none;
+    border-radius: 5px;
+    color: #fdfdfd;
+    font-size: 1rem;
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+#navbarBtn:hover {
+    opacity: 1;
+}
+
+#ribbon {
+    background-color: #fdfa24;
+    color: #585858;
+    padding: .5rem 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.attention {
+    color: #da0f0f;
+    text-transform: uppercase;
+}
+
+/* ===================================================== */
+.swiper {
+    height: 500px;
+}
+  
+.swiper img {
+    box-shadow: 0 1px 2px #0003;
+    width: 100%;
+}
+   
+.swiper-slide {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ===================================================== */
+
+#budgetContainer {
+    background-color: #fdfdfd;
+    margin: 5rem auto 10rem;
+    align-items: center;
+    width: 500px;
+    border-radius: 15px;
+}
+
+#budgetContainer header {
+    background-color: #fdfdfd;
+    text-align: center;
+    padding: 1.5rem 1rem 1rem;
+    border-bottom: 1px solid #ddd;
+}
+
+#budgetContainer form {
+    padding: 1rem 7.5rem 1rem;
+}
+
+input {
+    padding: .25rem .5rem;
+    width: 15rem;
+    margin-bottom: 1rem;
+}
+
+#budgetBtn {
+    text-transform: uppercase;
+    margin: 1rem 5rem;
+    padding: 1rem;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    opacity: .7;
+}
+
+#budgetBtn:hover {
+    opacity: 1;
+}
+
+#request {
+    padding: .25rem .5rem;
+    width: 15rem;
+    padding: .25rem .5rem;
+}
+
+.bannerImg {
+    width: 600px;
+}
+
+/* ===================================================== */
+#shoppingContainer{
+    background-color: #fdfdfd;
+    width: 100%;
+    max-width:  100%;
+    margin: 50px auto 0;
+    border-radius: 15px;
+}
+
+#shoppingContainer header {
+    background-color: #fdfdfd;
+    padding: 1rem 0;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    text-transform: uppercase;
+}
+
+.filter{
+    padding: 20px;
+    display: grid ;
+    grid-template-columns: auto;
+    grid-template-columns: 25% 25% 25% 25%;
+    column-gap: 1%;
+    row-gap: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.filter .item{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filter .item select,
+.filter .item input,
+.filter .item button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.filter .item label{
+    display: block;
+    width: 40%;
+    padding:  10px;
+}
+
+.filter .item.submit button{
+    background-color: #ff0000;
+    color: #fff;
+    width: 150px;
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+.filter .item.submit button:hover{
+    opacity: 1;
+}
+
+.countResults{
+    font-size: xx-large;
+    text-align: center;
+    padding: 20px;
+}
+
+#list{
+    padding: 20px;
+    display: grid;
+    column-gap: 1%;
+    /* grid-template-columns: 32.66% 32.66% 32.66%; */
+    grid-template-columns: 19% 19% 19% 19% 19%;
+    row-gap: 10px;
+}
+
+#list .item img{
+    width: 90%;
+    height:300px;
+    object-fit: cover;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+#list .item{
+    background-color: #fdfdfd;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid #ddd
+}
+
+#list .item .title{
+    font-weight: bold;
+}
+
+#list .item .price{
+    color: #c21414;
+    letter-spacing: 1px;
+    padding: 20px;
+}
+
+/* ===================================================== */
+footer {
+    /* border-top: 1px solid #fdfdfd; */
+    background-color: #999999;
+    color: #991414;
+    padding: 3rem 10rem;
+}
+
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itens {
+    width: 100%;
+    border-bottom:1px solid #991414;
+    text-align: center;
+}
+
+.itens h4 {
+    text-transform: uppercase;
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.body ul {
+    padding: 0 3rem;
+}
+
+.body li {
+    padding: 9px 0;
+}
+
+.section {
+    font-weight: bold;
+}
+
+.body li a {
+    color: #474747;
+}
+
+.copy {
+    display: flex;
+    padding: 0 0 0; 
+    border-top: 1px solid #991414;
+    justify-content: center;
+    font-size: .8rem;
+}
+
+
+/* .product-card {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.product-image img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.product-title {
+    font-size: 16px;
+    margin: 0;
+    text-align: center;
+}
+
+.product-price {
+    font-size: 18px;
+    margin: 0;
+    text-align: center;
+} */
+
+/* #products {
+
+} */
+
+/* 
+#moreProducts {
+    padding: 1rem 0;
+}
+
+#moreProducts h3,
+#moreProducts p,
+#moreProducts button {
+    display: flex;
+    justify-content: center;
+}
+
+#moreProducts button {
+    border: none;
+}
+ */
+
+
+

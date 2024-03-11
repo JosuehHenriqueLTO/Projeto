@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Motopeçaria</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/script.js" defer></script>
+    <link
+     rel="stylesheet"
+     href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  </head>
+  <body>
+    <!-- PAGE'S HEADER CONTAINER -->
+    <header class="headerPage">
+      <nav>
+        <img src="img/logo.png" alt="" class="logo">
+        <!-- <h1>Motopeçaria</h1> -->
+        <ul id="navbar">
+          <li>
+            <a href="">Home</a>
+          </li>
+          <li>
+            <a target="_self" href="#shoppingContainer">Peças</a>
+          </li>
+          <li>
+            <a target="_self" href="#mainBanner">Orçamento</a>
+          </li>
+          <li>
+            <a target="_self" href="#header">Contate-nos</a>
+          </li>
+          <li>
+            <button id="navbarBtn">Entrar</button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- <div id="register">
+        <header> 
+            <h4>Registre-se ou faça login</h4>
+        </header>
+        <form action="">
+            <p>Seu número/email:</p>
+            <input type="text" name="">
+        </form>
+    </div> -->
+
+    <div id="ribbon">
+      <p><span class="attention">Saldão do pneu:</span> Estoque selecionado de pneus com até <span class="attention">15% OFF à vista ou 10x sem juros</span> no crédito</p>
+    </div>
+    <!-- SWIPER -->
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="project-img">
+            <img src="img/Primeira compra banner.png" alt="Foto 01">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="project-img">
+            <img src="img/Primeira compra banner.png" alt="Foto 01">
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="project-img">
+            <!-- <img src="img/eb760676ad7f36dae0eb32da861f730c.jpg" alt="Foto 01"> -->
+          </div>
+        </div>
+      </div>
+    
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-pagination"></div>
+    </div>
+    <main>
+    <!-- PRODUCTS CONTAINER -->
+    <div id="shoppingContainer">
+      <header>
+        <h1>Nossos produtos</h1>
+      </header> 
+      <form class="filter">
+          <div class="item">
+              <label>Peça</label>
+              <select name="category">
+                  <option value="">---</option>
+                  <option value="rearView">Retrovisores</option>
+                  <option value="tire">Pneus</option>
+                  <option value="light">Farol</option>
+                  <option value="exhaust">Escapamentos</option>
+              </select>
+          </div>
+          <div class="item">
+              <label>Preço mín.</label>
+              <input name="minPrice" type="number">
+          </div>
+          <div class="item">
+              <label>Preço máx.</label>
+              <input name="maxPrice" type="number">
+          </div>
+          <div class="item submit">
+              <button>Procurar</button>
+          </div>
+      </form>
+      <div class="countResults hide">
+          Encontrou <b id="count">5</b> resultados
+      </div>
+      <div id="list">
+          
+      </div>
+    </div>
+
+    <!-- PRODUCTS CONTAINER -->
+    <div id="mainBanner" class="">
+      <div id="budgetContainer" class="">
+        <header>
+          <h3>Faça um orçamento conosco! (sem compromisso)</h3>
+        </header>
+        <form action="" id="budgetForm">
+          <p>Seu nome:</p>
+          <input type="text" name="name" id="name" />
+          <p>Seu celular:</p>
+          <input type="text" name="phone" id="phone" />
+          <p>Seu melhor email:</p>
+          <input type="email" name="email" id="email" />
+          <p>Do que precisa?</p>
+          <input type="text" name="request" id="request" />
+          <button id="budgetBtn">Enviar</button>
+        </form>
+      </div>
+    </div>
+
+    </main>
+
+  <footer>
+    <div id="header">
+      <div class="itens">
+      <h4>Frete grátis</h4>
+      <p>Para regiões sul e sudeste</p>
+      <p>Confira os requisitos</p>
+      </div>
+      <div class="itens">
+      <h4>Entrega rápida e segura</h4>
+      <p>Acompanhe em tempo real qual a situação e localização de seu pedido</p><br>
+      </div>
+      <div class="itens">
+      <h4>Pagamento facilitado</h4>
+      <p>Escolha qual a forma de pagamento que melhor te atende</p><br>
+      </div>
+      </div>
+    <div class="body">
+      <ul>
+        <li class="section">
+          Intitucional
+        </li>
+        <li>
+          <a href="">Sobre nós</a>
+        </li>
+        <li>
+          <a href="">Nossas políticas</a>
+        </li>
+        <li>
+          <a href="">Regulamentos</a>
+        </li>
+        <li>
+          <a href="">Afiliados</a>
+        </li>
+        <li>
+          <a href="">Integridade</a>
+        </li>
+        <li>
+          <a href="">Reclame Aqui</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="section">
+          Ajuda
+        </li>
+        <li>
+          <a href="">Trocas e devoluções</a>
+        </li>
+        <li>
+          <a href="">Entregas</a>
+        </li>
+        <li>
+          <a href="">Pedidos</a>
+        </li>
+        <li>
+          <a href="">Pagamentos</a>
+        </li>
+      </ul>
+      <ul>
+        <li class="section">
+          Central de relacionamentos
+        </li>
+        <li>
+          <a href="">Canal Whatsapp</a>
+        </li>
+        <li>
+          <a href="">Nossas redes</a>
+        </li>
+        <li>
+          <a href="">SAC: 0800 1234 4321</a>
+        </li>
+      </ul>
+    </div>
+    <div class="copy">
+      Todos os direitos reservados. &copy;
+    </div>
+  </footer>
+  </body>
+</html>

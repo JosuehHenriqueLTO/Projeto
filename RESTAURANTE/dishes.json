@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "type": "massa",
+        "name": "Massa1",
+        "price": 119.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 2,
+        "type": "massa",
+        "name": "Massa2",
+        "price": 99.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 3,
+        "type": "pizza",
+        "name": "Pizza",
+        "price": 89.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 4,
+        "type": "pizza",
+        "name": "Pizza",
+        "price": 149.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 5,
+        "type": "sobremesa",
+        "name": "Sobremesa",
+        "price": 174.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 6,
+        "type": "drink",
+        "name": "Bebida",
+        "price": 199.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 7,
+        "type": "drink",
+        "name": "Bebida",
+        "price": 249.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 8,
+        "type": "drink",
+        "name": "Bebida",
+        "price": 9.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 9,
+        "type": "drink",
+        "name": "Bebida",
+        "price": 29.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    },
+    {
+        "id": 10,
+        "type": "drink",
+        "name": "Bebida",
+        "price": 39.99,
+        "image": "img/logo.png",
+        "description": "(Explicação do prato) Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolore at nulla consectetur, et libero aliquid quis deleniti. Culpa fugit est dignissimos explicabo, aspernatur magnam, eligendi facilis sequi, cum repellat consectetur?"
+    }
+]
